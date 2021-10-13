@@ -1,0 +1,15 @@
+ int i,c=0,l=0,loc;
+for( i=0;i<apples.size();i++)
+{
+  loc=apples[i]+a; 
+  if(loc>=s && loc<=t)
+    c++;
+}
+for( i=0;i<oranges.size();i++)
+{
+  loc=oranges[i]+b; 
+  if(loc>=s && loc<=t)
+    l++; 
+}
+cout<<c<<endl<<l;
+}
